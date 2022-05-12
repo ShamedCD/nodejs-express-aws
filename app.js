@@ -20,6 +20,10 @@ app.get('/products', (req, res) => {
     ]);
 });
 
+app.get('/health-check', (req, res) => {
+    res.send('<h1>Express Demo App</h1> <h4>Message: Ok</h4>');
+});
+
 app.listen(port, () => {
     console.log(`Demo app is up and listening to port: ${port}`);
 });
