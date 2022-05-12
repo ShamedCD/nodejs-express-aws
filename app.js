@@ -5,7 +5,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
     res.json({
-        message: 'Welcome to ADPList tech challenge',
+        message: 'Welcome to ADPList tech challenge, version 2',
         status: 'Ok'
     });
 });
